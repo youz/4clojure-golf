@@ -1,5 +1,5 @@
-3012	total
-183	073_Analyze a Tic-Tac-Toe Board.clj
+3010	total
+181	073_Analyze a Tic-Tac-Toe Board.clj
 138	084_Transitive Closure.clj
 131	053_Longest Increasing Sub-Seq.clj
 122	065_Black Box Testing.clj

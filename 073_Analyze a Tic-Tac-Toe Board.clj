@@ -1,1 +1,1 @@
-#(some(fn[a](let[%(map(fn[[x y]]((%2 x)y))a)](and(not((set%):e))(apply =%)(first%))))(partition 3(concat(for[x% y%][x y])(for[y% x%][x y])(for[x%][x x])(for[x%][x(- 2 x)]))))(range 3)
+#(some(fn[a](let[%(map(fn[[x y]]((%2 x)y))a)](and(not((set%):e))(apply =%)(first%))))(partition 3(concat(for[x% y%][x y])(for[y% x%][x y])(for[x%][x x])[[0 2][1 1][2 0]])))(range 3)
