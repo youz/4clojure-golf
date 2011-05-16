@@ -1,0 +1,1 @@
+(fn[& r](set(filter #(every?(fn[e](e%))r)(apply concat r))))

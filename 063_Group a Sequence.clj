@@ -1,0 +1,1 @@
+(fn[f c](let[k(set(map f c))v(map #(filter(fn[e](=(f e)%))c)k)](apply hash-map(mapcat list k v))))

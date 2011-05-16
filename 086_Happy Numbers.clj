@@ -1,0 +1,1 @@
+#(or(=% 1)(if(=% 4)false(recur(reduce(fn[a%](+(*(-(int%)48)(-(int%)48))a))0(str%)))))

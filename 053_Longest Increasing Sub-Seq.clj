@@ -1,0 +1,1 @@
+#(let[c(count%2)l(for[x(% c)y(% x(dec c)):let[s(subvec%2 x(+ y 2))]:when(apply < s)]s)](apply max-key count(reverse`[[]~@l])))range

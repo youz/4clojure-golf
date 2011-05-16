@@ -1,0 +1,1 @@
+#(rest(mapcat list[%%%%]%2))

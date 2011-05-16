@@ -1,0 +1,1 @@
+(fn[& r](last(sort r)))

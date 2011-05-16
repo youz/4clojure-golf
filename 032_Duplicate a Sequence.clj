@@ -1,0 +1,1 @@
+mapcat(fn[x][x x])

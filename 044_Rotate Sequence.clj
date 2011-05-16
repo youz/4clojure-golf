@@ -1,0 +1,1 @@
+#(map-indexed(fn[i x](nth%2(mod(+% i)(count%2))))%2)

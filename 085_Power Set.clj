@@ -1,0 +1,1 @@
+(fn[s](reduce(fn[% b](reduce #(conj%(conj%2 b))%%))#{#{}}s))

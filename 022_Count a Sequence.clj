@@ -1,0 +1,1 @@
+reduce #(or(inc%)%2)0

@@ -1,0 +1,1 @@
+(fn[v](apply min(reduce(fn[%[f & r]]`[~(+(% 0)f)~@(map #(+(min%%2)%3)%(rest%)r)~(+(last%)(last r))])v)))
