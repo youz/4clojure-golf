@@ -1,1 +1,1 @@
-(fn[& r](not(apply = r)))
+#(not(apply =%&))
