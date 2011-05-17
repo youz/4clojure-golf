@@ -1,4 +1,4 @@
-2734	total
+2722	total
 138	073_Analyze a Tic-Tac-Toe Board.clj
 128	084_Transitive Closure.clj
 112	053_Longest Increasing Sub-Seq.clj
@@ -36,7 +36,6 @@
 28	040_Interpose a Seq.clj
 27	049_Split a sequence.clj
 27	034_Implement range.clj
-25	083_A Half-Truth.clj
 25	042_Factorial Fun.clj
 25	029_Get the Caps.clj
 23	050_Split by Type.clj
@@ -44,10 +43,11 @@
 21	022_Count a Sequence.clj
 20	027_Palindrome Detector.clj
 18	032_Duplicate a Sequence.clj
-18	019_Last Element.clj
 18	016_Hello World.clj
+17	083_A Half-Truth.clj
 17	021_Nth Element.clj
 17	020_Penultimate Element.clj
+17	019_Last Element.clj
 16	031_Pack a Sequence.clj
 14	076_Intro to Trampoline.clj
 14	046_Flipping out.clj
@@ -62,8 +62,8 @@
 11	039_Interleave Two Seqs.clj
 11	025_Find the odd numbers.clj
 10	013_Sequences rest.clj
-10	005_Lists conj.clj
 9	007_Vectors conj.clj
+9	005_Lists conj.clj
 8	006_Intro to Vectors.clj
 8	004_Intro to Lists.clj
 7	072_Rearranging Code -gtgt.clj
@@ -76,7 +76,6 @@
 4	071_Rearranging Code -gt.clj
 4	001_Nothing but the Truth.clj
 3	015_Double Down.clj
-3	002_Simple Math.clj
 2	010_Intro to Maps.clj
 1	064_Intro to Reduce.clj
 1	048_Intro to some.clj
@@ -85,3 +84,4 @@
 1	014_Intro to Functions.clj
 1	012_Intro to Sequences.clj
 1	009_Sets conj.clj
+1	002_Simple Math.clj
