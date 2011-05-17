@@ -1,4 +1,4 @@
-2729	total
+2727	total
 138	073_Analyze a Tic-Tac-Toe Board.clj
 128	084_Transitive Closure.clj
 112	053_Longest Increasing Sub-Seq.clj
@@ -34,8 +34,8 @@
 30	030_Compress a Sequence.clj
 28	040_Interpose a Seq.clj
 28	033_Replicate a Sequence.clj
-27	049_Split a sequence.clj
 27	034_Implement range.clj
+25	049_Split a sequence.clj
 25	042_Factorial Fun.clj
 25	029_Get the Caps.clj
 24	090_Cartesian Product.clj
