@@ -1,1 +1,1 @@
-#(first(reverse%))
+#(nth(reverse%)0)
