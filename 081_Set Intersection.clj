@@ -1,1 +1,1 @@
-(fn[& r](set(filter #(every?(fn[e](e%))r)(apply concat r))))
+(fn[a b](reduce #(if(b%2)(conj%%2)%)#{}a))
