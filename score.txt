@@ -1,9 +1,8 @@
-2881	total
-181	073_Analyze a Tic-Tac-Toe Board.clj
+2809	total
+144	073_Analyze a Tic-Tac-Toe Board.clj
 132	084_Transitive Closure.clj
 112	053_Longest Increasing Sub-Seq.clj
 106	065_Black Box Testing.clj
-104	079_Triangle Minimal Path.clj
 98	063_Group a Sequence.clj
 92	074_Filter Perfect Squares.clj
 86	069_Merge with a Function.clj
@@ -12,6 +11,7 @@
 80	056_Find Distinct Items.clj
 77	067_Prime Numbers.clj
 73	060_Sequence Reductions.clj
+69	079_Triangle Minimal Path.clj
 68	055_Count Occurences.clj
 66	058_Function Composition.clj
 60	081_Set Intersection.clj
