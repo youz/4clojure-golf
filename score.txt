@@ -1,4 +1,4 @@
-2727	total
+2701	total
 138	073_Analyze a Tic-Tac-Toe Board.clj
 128	084_Transitive Closure.clj
 112	053_Longest Increasing Sub-Seq.clj
@@ -13,7 +13,6 @@
 69	079_Triangle Minimal Path.clj
 68	055_Count Occurences.clj
 66	058_Function Composition.clj
-60	081_Set Intersection.clj
 57	085_Power Set.clj
 57	054_Partition a Sequence.clj
 56	070_Word Sorting.clj
@@ -23,14 +22,14 @@
 51	063_Group a Sequence.clj
 50	088_Symmetric Difference.clj
 50	026_Fibonacci Sequence.clj
+42	081_Set Intersection.clj
 40	041_Drop Every Nth Item.clj
 38	028_Flatten a Sequence.clj
-37	078_Reimplement Trampoline.clj
+36	078_Reimplement Trampoline.clj
 36	062_Re-implement Iterate.clj
 36	059_Juxtaposition.clj
 33	061_Map Construction.clj
 31	043_Reverse Interleave.clj
-30	066_Greatest Common Divisor.clj
 30	030_Compress a Sequence.clj
 28	040_Interpose a Seq.clj
 28	033_Replicate a Sequence.clj
@@ -39,6 +38,7 @@
 25	042_Factorial Fun.clj
 25	029_Get the Caps.clj
 24	090_Cartesian Product.clj
+23	066_Greatest Common Divisor.clj
 23	050_Split by Type.clj
 21	022_Count a Sequence.clj
 20	027_Palindrome Detector.clj
