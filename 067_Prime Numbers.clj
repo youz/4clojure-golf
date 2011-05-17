@@ -1,1 +1,1 @@
-(fn[c](take c(filter #(every?(fn[i](>(mod% i)0))(range 2%))(drop 2(range)))))
+(fn[r%](take%(remove #(some(fn[i](=(mod% i)0))(r 2%))(r 2 1e3))))range

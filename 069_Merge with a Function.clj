@@ -1,1 +1,1 @@
-(fn[f & r](reduce #(reduce(fn[a[k v]](conj a(if-let[b(a k)]{k(f b v)}{k v})))%%2)r))
+(fn[r f &%](r #(r(fn[m[k%]](assoc m k(if-let[b(m k)](f b%)%)))%%2)%))reduce
