@@ -1,1 +1,1 @@
-#(let[n(apply%%2(map(fn f[p](if-let[[n](seq(filter(fn[e](=(e 0)(p 1)))%2))]#{[(p 0)(n 1)]}))%2))](if(=%2 n)%2(recur% n)))clojure.set/union
+#(let[n(apply clojure.set/union%(map(fn f[p](if-let[[n](seq(filter(fn[e](=(e 0)(p 1)))%))]#{[(p 0)(n 1)]}))%))](if(=% n)%(recur n)))

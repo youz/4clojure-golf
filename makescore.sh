@@ -1,2 +1,2 @@
 #!/bin/bash
-du -bc ./*.clj | sort -nr > score.txt
+du -cb --exclude=embed_* *.clj | sort -nr > score.txt

@@ -1,1 +1,1 @@
-(fn r([f c](lazy-seq(r f(first c)(rest c))))([f i c](cons i(if(seq c)(lazy-seq(r f(f i(first c))(rest c)))))))
+(fn f([g[h &%]](f g h%))([g%[h & r]](cons%(if h(lazy-seq(f g(g% h)r))))))

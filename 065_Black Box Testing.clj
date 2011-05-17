@@ -1,1 +1,1 @@
-#(let[b(count%)m(conj%{:z 0}{:z 1}{:z 1})a(count m)](cond(=(+ b 1)a):map(=(+ b 2)a):set(=(first m){:z 1}):list 1 :vector))
+#(let[m{1 1}c count u(conj%{1 0}m m)n(-(c u)2)](cond(>(c%)n):map(=(c%)n):set(=(first u)m):list 1 :vector))
