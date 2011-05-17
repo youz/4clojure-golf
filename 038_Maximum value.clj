@@ -1,1 +1,1 @@
-(fn[& r](last(sort r)))
+#(last(sort%&))

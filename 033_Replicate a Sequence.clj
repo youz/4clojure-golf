@@ -1,1 +1,1 @@
-#(mapcat(fn[x](repeat%2 x))%)
+#(mapcat(partial repeat%2)%)

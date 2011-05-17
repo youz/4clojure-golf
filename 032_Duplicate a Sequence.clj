@@ -1,1 +1,1 @@
-mapcat(fn[x][x x])
+mapcat #(list%%)

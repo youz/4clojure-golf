@@ -1,1 +1,1 @@
-reduce #(if(=(last%)%2)%`(~@%~%2))()
+#(map last(partition-by str%))

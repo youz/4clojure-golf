@@ -1,4 +1,4 @@
-2722	total
+2729	total
 138	073_Analyze a Tic-Tac-Toe Board.clj
 128	084_Transitive Closure.clj
 112	053_Longest Increasing Sub-Seq.clj
@@ -28,27 +28,28 @@
 37	078_Reimplement Trampoline.clj
 36	062_Re-implement Iterate.clj
 36	059_Juxtaposition.clj
-36	030_Compress a Sequence.clj
 33	061_Map Construction.clj
 31	043_Reverse Interleave.clj
 30	066_Greatest Common Divisor.clj
-29	033_Replicate a Sequence.clj
+30	030_Compress a Sequence.clj
 28	040_Interpose a Seq.clj
+28	033_Replicate a Sequence.clj
 27	049_Split a sequence.clj
 27	034_Implement range.clj
 25	042_Factorial Fun.clj
 25	029_Get the Caps.clj
+24	090_Cartesian Product.clj
 23	050_Split by Type.clj
-23	038_Maximum value.clj
 21	022_Count a Sequence.clj
 20	027_Palindrome Detector.clj
-18	032_Duplicate a Sequence.clj
 18	016_Hello World.clj
 17	083_A Half-Truth.clj
 17	021_Nth Element.clj
 17	020_Penultimate Element.clj
 17	019_Last Element.clj
+16	032_Duplicate a Sequence.clj
 16	031_Pack a Sequence.clj
+15	038_Maximum value.clj
 14	076_Intro to Trampoline.clj
 14	046_Flipping out.clj
 14	008_Intro to Sets.clj
