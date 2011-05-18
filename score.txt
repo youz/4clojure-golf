@@ -1,17 +1,15 @@
-2701	total
+2588	total
 138	073_Analyze a Tic-Tac-Toe Board.clj
 128	084_Transitive Closure.clj
 112	053_Longest Increasing Sub-Seq.clj
-106	065_Black Box Testing.clj
 92	074_Filter Perfect Squares.clj
 85	086_Happy Numbers.clj
 84	075_Euler's Totient Function.clj
-80	056_Find Distinct Items.clj
-75	069_Merge with a Function.clj
 73	060_Sequence Reductions.clj
+71	056_Find Distinct Items.clj
 70	067_Prime Numbers.clj
 69	079_Triangle Minimal Path.clj
-68	055_Count Occurences.clj
+69	069_Merge with a Function.clj
 66	058_Function Composition.clj
 57	085_Power Set.clj
 57	054_Partition a Sequence.clj
@@ -22,17 +20,19 @@
 51	063_Group a Sequence.clj
 50	088_Symmetric Difference.clj
 50	026_Fibonacci Sequence.clj
+49	065_Black Box Testing.clj
 42	081_Set Intersection.clj
 40	041_Drop Every Nth Item.clj
 38	028_Flatten a Sequence.clj
 36	078_Reimplement Trampoline.clj
 36	062_Re-implement Iterate.clj
-36	059_Juxtaposition.clj
+35	059_Juxtaposition.clj
 33	061_Map Construction.clj
+31	055_Count Occurences.clj
 31	043_Reverse Interleave.clj
 30	030_Compress a Sequence.clj
-28	040_Interpose a Seq.clj
 28	033_Replicate a Sequence.clj
+27	040_Interpose a Seq.clj
 27	034_Implement range.clj
 25	049_Split a sequence.clj
 25	042_Factorial Fun.clj
@@ -43,12 +43,12 @@
 21	022_Count a Sequence.clj
 20	027_Palindrome Detector.clj
 18	016_Hello World.clj
-17	083_A Half-Truth.clj
 17	021_Nth Element.clj
 17	020_Penultimate Element.clj
 17	019_Last Element.clj
 16	032_Duplicate a Sequence.clj
 16	031_Pack a Sequence.clj
+15	083_A Half-Truth.clj
 15	038_Maximum value.clj
 14	076_Intro to Trampoline.clj
 14	046_Flipping out.clj
