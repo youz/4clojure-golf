@@ -1,1 +1,1 @@
-#(not(apply =%&))
+#(apply not=%&)
