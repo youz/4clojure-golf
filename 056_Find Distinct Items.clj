@@ -1,1 +1,1 @@
-#(let[x(first%3)](if(not x)%(recur(if(%2 x)%(conj% x))(conj%2 x)(rest%3))))[]#{}
+#(let[[x & r]%3](if(not x)%(recur(if(%2 x)%`[~@%~x])(conj%2 x)r)))[]#{}

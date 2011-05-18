@@ -1,1 +1,1 @@
-#(rest(mapcat list[%%%%]%2))
+#(rest(interleave[%%%%]%2))

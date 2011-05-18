@@ -1,1 +1,1 @@
-(fn[r f &%](r #(r(fn[m[k%]](assoc m k(if-let[b(m k)](f b%)%)))%%2)%))reduce
+(fn[r f &%](r #(r(fn[m[% v]](assoc m%(if(m%)(f(m%)v)v)))%%2)%))reduce
