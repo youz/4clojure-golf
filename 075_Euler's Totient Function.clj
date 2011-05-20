@@ -1,1 +1,4 @@
-(fn[n](+(count(filter(fn[i](#(if(=%2 0)(=% 1)(recur%2(mod%%2)))n i))(range 2 n)))1))
+(fn [n]
+  (+ 1 (count
+	(filter (fn [i] (= (str i '/ n) (str (/ i n))))
+		(range 2 n)))))
