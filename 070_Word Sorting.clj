@@ -1,1 +1,3 @@
-(fn[s](sort #(.compareToIgnoreCase%%2)(re-seq #"\w+"s)))
+(fn [s]
+  (sort #(.compareToIgnoreCase % %2)
+	(re-seq #"\w+" s)))

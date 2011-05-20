@@ -1,1 +1,2 @@
-#(map(fn[x](take%(drop(*% x)%2)))(range(quot(count%2)%)))
+#(map (fn [x] (take % (drop (* % x) %2)))
+  (range (quot (count %2) %)))

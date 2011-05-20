@@ -1,1 +1,5 @@
-(fn[r%](r(fn[% b](r #(conj%(conj%2 b))%%))#{#{}}%))reduce
+(fn [r u]
+  (r (fn [a e]
+       (r #(conj % (conj %2 e)) a a))
+     #{#{}} u))
+reduce
