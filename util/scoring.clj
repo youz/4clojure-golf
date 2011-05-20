@@ -8,7 +8,7 @@
   (let [code (slurp f)]
     (count (remove #(Character/isWhitespace %) code))))
 
-(defn- get-answers [folder]
+(defn- get-solutions [folder]
   (let [d (new java.io.File folder)]
     (if (not (.isDirectory d)) {}
       (group-by #(let [fname (.getName %)]
@@ -17,14 +17,14 @@
 			:else :nonembed))
 		(. d (listFiles))))))
 
-(defn- calc-score [ans]
+(defn- calc-score [sols]
   (loop [total 0
 	 embed 0
 	 detail []
-	 [file & r] (ans :nonembed)]
+	 [file & r] (sols :nonembed)]
     (if file
 	(let [n (.getName file)
-	      e (some #(if (= n (.replaceAll (.getName %) "embed_" "")) %) (ans :embed))
+	      e (some #(if (= n (.replaceAll (.getName %) "embed_" "")) %) (sols :embed))
 	      lf (code-length file)
 	      le (if e (code-length e))]
 	  (recur (+ total lf) (+ embed (or le lf)) (conj detail [lf (or le \-) n]) r))
@@ -44,7 +44,7 @@
   (let [[folder output] *command-line-args*]
     (if (not folder)
 	(println "usage: clojure 4cljscore.clj foldername [output]")
-      (let [score (calc-score (get-answers folder))]
+      (let [score (calc-score (get-solutions folder))]
 	(if output
 	    (with-open [w (jio/writer output)]
 	      (render score w)

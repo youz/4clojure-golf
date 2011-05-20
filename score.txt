@@ -1,10 +1,8 @@
-solved: 90
-total: 3619 / embed: 1891
+solved: 88
+total: 2350 / embed: 1839
 
  score | embed | file
 -------+-------+--------------------
-   665 |    36 | 082_Word Chains.clj
-   604 |    16 | 091_Graph Connectivity.clj
    120 |    34 | 073_Analyze a Tic-Tac-Toe Board.clj
    106 |    35 | 053_Longest Increasing Sub-Seq.clj
     88 |    32 | 074_Filter Perfect Squares.clj
