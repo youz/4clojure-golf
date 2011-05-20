@@ -1,1 +1,1 @@
-(fn[a b](reduce #(if(b%2)(conj%%2)%)#{}a))
+clojure.set/select

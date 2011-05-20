@@ -1,5 +1,5 @@
 solved: 88
-total: 2350 / embed: 1839
+total: 2350 / embed: 1811
 
  score | embed | file
 -------+-------+--------------------
@@ -18,7 +18,7 @@ total: 2350 / embed: 1839
     54 |     - | 070_Word Sorting.clj
     54 |     - | 085_Power Set.clj
     51 |     - | 058_Function Composition.clj
-    48 |     - | 026_Fibonacci Sequence.clj
+    48 |    20 | 026_Fibonacci Sequence.clj
     48 |     - | 077_Anagram Finder.clj
     48 |    16 | 080_Perfect Numbers.clj
     47 |    39 | 056_Find Distinct Items.clj

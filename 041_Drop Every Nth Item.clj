@@ -1,1 +1,1 @@
-#(apply concat(partition-all(dec%2)%2%))
+#(apply concat (partition-all (dec %2) %2 %))

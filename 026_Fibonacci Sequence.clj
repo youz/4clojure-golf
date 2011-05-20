@@ -1,1 +1,4 @@
-#(if(=%4 0)%(recur(conj%%2)%3(+%2%3)(dec%4)))[]1 1
+(fn f [v a b c]
+  (if (= c 0) v
+    (f (conj v a) b (+ a b) (dec c))))
+[] 1 1

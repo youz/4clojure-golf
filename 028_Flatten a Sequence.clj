@@ -1,1 +1,2 @@
-#(remove%(tree-seq% seq%2))sequential?
+#(remove % (tree-seq % seq %2))
+sequential?

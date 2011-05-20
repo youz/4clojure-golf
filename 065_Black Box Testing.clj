@@ -1,1 +1,1 @@
-#({\# :set\{ :map\[ :vector\c :list}(nth(str%)0))
+#({\# :set \{ :map \[ :vector \c :list} (nth (str %) 0))

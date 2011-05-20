@@ -1,1 +1,1 @@
-#(set(for[x% y%2][x y]))
+#(set (for [x % y %2] [x y]))

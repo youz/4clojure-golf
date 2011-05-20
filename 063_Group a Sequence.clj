@@ -1,1 +1,2 @@
-#(reduce(fn[m e](assoc m(% e)`[~@(m(% e))~e])){}%2)
+#(reduce (fn [m e] (assoc m (% e) `[~@(m (% e)) ~e]))
+  {} %2)
