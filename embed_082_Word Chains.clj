@@ -1,1 +1,0 @@
-#(string?(some%["cat""shares""do"]))
