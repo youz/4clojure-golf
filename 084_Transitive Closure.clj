@@ -1,1 +1,4 @@
-#(let[n(apply clojure.set/union%(map(fn f[[a b]](if-let[[p](seq(filter(fn[e](=(e 0)b))%))]#{[a(p 1)]}))%))](if(=% n)%(recur n)))
+(fn f [s]
+  (#(if (= % s) s (f %))
+   (set (for [[a b] s [c d] s]
+	  [a (if (= b c) d b)]))))

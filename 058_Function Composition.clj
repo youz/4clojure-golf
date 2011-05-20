@@ -1,1 +1,2 @@
-(fn[& f](fn[& a](reduce #(%2%)(apply(last f)a)(rest(reverse f)))))
+(fn [& f]
+  #((reduce (fn [v f] [(apply f v)]) %& (reverse f)) 0))
