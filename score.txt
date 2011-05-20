@@ -1,88 +1,95 @@
-2588	total
-138	073_Analyze a Tic-Tac-Toe Board.clj
-128	084_Transitive Closure.clj
-112	053_Longest Increasing Sub-Seq.clj
-92	074_Filter Perfect Squares.clj
-85	086_Happy Numbers.clj
-84	075_Euler's Totient Function.clj
-73	060_Sequence Reductions.clj
-71	056_Find Distinct Items.clj
-70	067_Prime Numbers.clj
-69	079_Triangle Minimal Path.clj
-69	069_Merge with a Function.clj
-66	058_Function Composition.clj
-57	085_Power Set.clj
-57	054_Partition a Sequence.clj
-56	070_Word Sorting.clj
-52	044_Rotate Sequence.clj
-51	080_Perfect Numbers.clj
-51	077_Anagram Finder.clj
-51	063_Group a Sequence.clj
-50	088_Symmetric Difference.clj
-50	026_Fibonacci Sequence.clj
-49	065_Black Box Testing.clj
-42	081_Set Intersection.clj
-40	041_Drop Every Nth Item.clj
-38	028_Flatten a Sequence.clj
-36	078_Reimplement Trampoline.clj
-36	062_Re-implement Iterate.clj
-35	059_Juxtaposition.clj
-33	061_Map Construction.clj
-31	055_Count Occurences.clj
-31	043_Reverse Interleave.clj
-30	030_Compress a Sequence.clj
-28	033_Replicate a Sequence.clj
-27	040_Interpose a Seq.clj
-27	034_Implement range.clj
-25	049_Split a sequence.clj
-25	042_Factorial Fun.clj
-25	029_Get the Caps.clj
-24	090_Cartesian Product.clj
-23	066_Greatest Common Divisor.clj
-23	050_Split by Type.clj
-21	022_Count a Sequence.clj
-20	027_Palindrome Detector.clj
-18	016_Hello World.clj
-17	021_Nth Element.clj
-17	020_Penultimate Element.clj
-17	019_Last Element.clj
-16	032_Duplicate a Sequence.clj
-16	031_Pack a Sequence.clj
-15	083_A Half-Truth.clj
-15	038_Maximum value.clj
-14	076_Intro to Trampoline.clj
-14	046_Flipping out.clj
-14	008_Intro to Sets.clj
-13	045_Intro to Iterate.clj
-13	036_Let it Be.clj
-13	023_Reverse a Sequence.clj
-13	003_Intro to Strings.clj
-11	068_Recurring Theme.clj
-11	057_Simple Recursion.clj
-11	051_Advanced Destructuring.clj
-11	039_Interleave Two Seqs.clj
-11	025_Find the odd numbers.clj
-10	013_Sequences rest.clj
-9	007_Vectors conj.clj
-9	005_Lists conj.clj
-8	006_Intro to Vectors.clj
-8	004_Intro to Lists.clj
-7	072_Rearranging Code -gtgt.clj
-7	024_Sum It All Up.clj
-7	017_Sequences map.clj
-6	011_Maps conj.clj
-5	052_Intro to Destructuring.clj
-5	037_Regular Expressions.clj
-5	018_Sequences filter.clj
-4	071_Rearranging Code -gt.clj
-4	001_Nothing but the Truth.clj
-3	015_Double Down.clj
-2	010_Intro to Maps.clj
-1	064_Intro to Reduce.clj
-1	048_Intro to some.clj
-1	047_Contain Yourself.clj
-1	035_Local bindings.clj
-1	014_Intro to Functions.clj
-1	012_Intro to Sequences.clj
-1	009_Sets conj.clj
-1	002_Simple Math.clj
+solved: 90
+total: 3619 / embed: 1891
+
+ score | embed | file
+-------+-------+--------------------
+   665 |    36 | 082_Word Chains.clj
+   604 |    16 | 091_Graph Connectivity.clj
+   120 |    34 | 073_Analyze a Tic-Tac-Toe Board.clj
+   106 |    35 | 053_Longest Increasing Sub-Seq.clj
+    88 |    32 | 074_Filter Perfect Squares.clj
+    83 |    14 | 086_Happy Numbers.clj
+    70 |    31 | 092_Read Roman numerals.clj
+    67 |    19 | 079_Triangle Minimal Path.clj
+    65 |    19 | 067_Prime Numbers.clj
+    64 |    57 | 060_Sequence Reductions.clj
+    64 |     - | 069_Merge with a Function.clj
+    64 |    15 | 075_Euler's Totient Function.clj
+    61 |     - | 084_Transitive Closure.clj
+    56 |     - | 054_Partition a Sequence.clj
+    54 |     - | 070_Word Sorting.clj
+    54 |     - | 085_Power Set.clj
+    51 |     - | 058_Function Composition.clj
+    48 |     - | 026_Fibonacci Sequence.clj
+    48 |     - | 077_Anagram Finder.clj
+    48 |    16 | 080_Perfect Numbers.clj
+    47 |    39 | 056_Find Distinct Items.clj
+    47 |     - | 063_Group a Sequence.clj
+    46 |     - | 044_Rotate Sequence.clj
+    45 |     - | 065_Black Box Testing.clj
+    40 |     - | 081_Set Intersection.clj
+    39 |     - | 041_Drop Every Nth Item.clj
+    37 |     - | 028_Flatten a Sequence.clj
+    36 |     - | 078_Reimplement Trampoline.clj
+    34 |     - | 062_Re-implement Iterate.clj
+    32 |     - | 059_Juxtaposition.clj
+    31 |     - | 061_Map Construction.clj
+    29 |     - | 043_Reverse Interleave.clj
+    29 |     - | 055_Count Occurences.clj
+    29 |     - | 088_Symmetric Difference.clj
+    28 |     - | 030_Compress a Sequence.clj
+    27 |     - | 033_Replicate a Sequence.clj
+    27 |     - | 040_Interpose a Seq.clj
+    26 |     - | 034_Implement range.clj
+    25 |     - | 029_Get the Caps.clj
+    25 |     - | 049_Split a sequence.clj
+    23 |     - | 042_Factorial Fun.clj
+    23 |     - | 066_Greatest Common Divisor.clj
+    22 |     - | 050_Split by Type.clj
+    22 |     - | 090_Cartesian Product.clj
+    20 |     - | 022_Count a Sequence.clj
+    20 |     - | 027_Palindrome Detector.clj
+    17 |     - | 016_Hello World.clj
+    17 |     - | 019_Last Element.clj
+    17 |     - | 020_Penultimate Element.clj
+    17 |     - | 021_Nth Element.clj
+    15 |     - | 031_Pack a Sequence.clj
+    15 |     - | 032_Duplicate a Sequence.clj
+    15 |     - | 038_Maximum value.clj
+    14 |     - | 046_Flipping out.clj
+    14 |     - | 083_A Half-Truth.clj
+    12 |     - | 003_Intro to Strings.clj
+    12 |     - | 023_Reverse a Sequence.clj
+    11 |     - | 008_Intro to Sets.clj
+    10 |     - | 025_Find the odd numbers.clj
+    10 |     - | 039_Interleave Two Seqs.clj
+     9 |     - | 045_Intro to Iterate.clj
+     9 |     - | 076_Intro to Trampoline.clj
+     8 |     - | 013_Sequences rest.clj
+     8 |     - | 036_Let it Be.clj
+     7 |     - | 051_Advanced Destructuring.clj
+     7 |     - | 057_Simple Recursion.clj
+     7 |     - | 068_Recurring Theme.clj
+     6 |     - | 004_Intro to Lists.clj
+     6 |     - | 005_Lists conj.clj
+     6 |     - | 006_Intro to Vectors.clj
+     6 |     - | 007_Vectors conj.clj
+     6 |     - | 024_Sum It All Up.clj
+     6 |     - | 072_Rearranging Code -gtgt.clj
+     5 |     - | 011_Maps conj.clj
+     5 |     - | 017_Sequences map.clj
+     5 |     - | 037_Regular Expressions.clj
+     4 |     - | 001_Nothing but the Truth.clj
+     4 |     - | 018_Sequences filter.clj
+     4 |     - | 052_Intro to Destructuring.clj
+     4 |     - | 071_Rearranging Code -gt.clj
+     2 |     - | 010_Intro to Maps.clj
+     2 |     - | 015_Double Down.clj
+     1 |     - | 002_Simple Math.clj
+     1 |     - | 009_Sets conj.clj
+     1 |     - | 012_Intro to Sequences.clj
+     1 |     - | 014_Intro to Functions.clj
+     1 |     - | 035_Local bindings.clj
+     1 |     - | 047_Contain Yourself.clj
+     1 |     - | 048_Intro to some.clj
+     1 |     - | 064_Intro to Reduce.clj
