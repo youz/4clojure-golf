@@ -1,9 +1,9 @@
 solved: 91
-total: 2530 / embed: 1852
+total: 2523 / embed: 1852
 
  score | embed | file
 -------+-------+--------------------
-   155 |    16 | 091_Graph Connectivity.clj
+   148 |    16 | 091_Graph Connectivity.clj
    120 |    34 | 073_Analyze a Tic-Tac-Toe Board.clj
    106 |    35 | 053_Longest Increasing Sub-Seq.clj
     88 |    32 | 074_Filter Perfect Squares.clj
