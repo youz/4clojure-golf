@@ -1,8 +1,9 @@
-solved: 88
-total: 2350 / embed: 1811
+solved: 91
+total: 2530 / embed: 1852
 
  score | embed | file
 -------+-------+--------------------
+   155 |    16 | 091_Graph Connectivity.clj
    120 |    34 | 073_Analyze a Tic-Tac-Toe Board.clj
    106 |    35 | 053_Longest Increasing Sub-Seq.clj
     88 |    32 | 074_Filter Perfect Squares.clj
@@ -23,9 +24,9 @@ total: 2350 / embed: 1811
     48 |    16 | 080_Perfect Numbers.clj
     47 |    39 | 056_Find Distinct Items.clj
     47 |     - | 063_Group a Sequence.clj
+    47 |     - | 093_Partially Flatten a Sequence.clj
     46 |     - | 044_Rotate Sequence.clj
     45 |     - | 065_Black Box Testing.clj
-    40 |     - | 081_Set Intersection.clj
     39 |     - | 041_Drop Every Nth Item.clj
     37 |     - | 028_Flatten a Sequence.clj
     36 |     - | 078_Reimplement Trampoline.clj
@@ -47,6 +48,7 @@ total: 2350 / embed: 1811
     22 |     - | 090_Cartesian Product.clj
     20 |     - | 022_Count a Sequence.clj
     20 |     - | 027_Palindrome Detector.clj
+    18 |     - | 081_Set Intersection.clj
     17 |     - | 016_Hello World.clj
     17 |     - | 019_Last Element.clj
     17 |     - | 020_Penultimate Element.clj
@@ -91,3 +93,4 @@ total: 2350 / embed: 1811
      1 |     - | 047_Contain Yourself.clj
      1 |     - | 048_Intro to some.clj
      1 |     - | 064_Intro to Reduce.clj
+     0 |     - | 089_Graph Tour.clj
