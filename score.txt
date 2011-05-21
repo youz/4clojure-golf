@@ -1,4 +1,4 @@
-solved: 91
+solved: 90
 total: 2523 / embed: 1852
 
  score | embed | file
@@ -93,4 +93,3 @@ total: 2523 / embed: 1852
      1 |     - | 047_Contain Yourself.clj
      1 |     - | 048_Intro to some.clj
      1 |     - | 064_Intro to Reduce.clj
-     0 |     - | 089_Graph Tour.clj
