@@ -1,5 +1,3 @@
-#!clojure
-
 (ns foreclojure.util)
 (require '[clojure.java.io :as jio])
 
