@@ -1,1 +1,1 @@
-#(mapcat(partial repeat%2)%)
+#(mapcat (partial repeat %2) %)

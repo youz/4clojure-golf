@@ -1,1 +1,3 @@
-(fn[&%](fn[& a](map #(apply% a)%)))
+(fn [& f]
+  (fn [& a]
+    (map #(apply % a) f)))

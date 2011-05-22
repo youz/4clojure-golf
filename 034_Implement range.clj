@@ -1,1 +1,1 @@
-#(take(-%2%)(iterate inc%))
+#(take (- %2 %) (iterate inc %))

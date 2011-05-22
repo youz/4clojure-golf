@@ -1,1 +1,1 @@
-#(.replaceAll%"[^A-Z]""")
+#(.replaceAll % "[^A-Z]""")

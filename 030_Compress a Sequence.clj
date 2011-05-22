@@ -1,1 +1,1 @@
-#(map last(partition-by str%))
+#(map last (partition-by str %))

@@ -1,1 +1,1 @@
-#(list(take%%2)(drop%%2))
+#(list (take % %2) (drop % %2))

@@ -1,5 +1,5 @@
-solved: 90
-total: 2523 / embed: 1852
+solved: 91
+total: 2519 / embed: 1914
 
  score | embed | file
 -------+-------+--------------------
@@ -29,8 +29,8 @@ total: 2523 / embed: 1852
     45 |     - | 065_Black Box Testing.clj
     39 |     - | 041_Drop Every Nth Item.clj
     37 |     - | 028_Flatten a Sequence.clj
-    36 |     - | 078_Reimplement Trampoline.clj
     34 |     - | 062_Re-implement Iterate.clj
+    33 |     - | 078_Reimplement Trampoline.clj
     32 |     - | 059_Juxtaposition.clj
     31 |     - | 061_Map Construction.clj
     29 |     - | 043_Reverse Interleave.clj
@@ -42,8 +42,8 @@ total: 2523 / embed: 1852
     26 |     - | 034_Implement range.clj
     25 |     - | 029_Get the Caps.clj
     25 |     - | 049_Split a sequence.clj
-    23 |     - | 042_Factorial Fun.clj
     23 |     - | 066_Greatest Common Divisor.clj
+    22 |     - | 042_Factorial Fun.clj
     22 |     - | 050_Split by Type.clj
     22 |     - | 090_Cartesian Product.clj
     20 |     - | 022_Count a Sequence.clj
@@ -93,3 +93,4 @@ total: 2523 / embed: 1852
      1 |     - | 047_Contain Yourself.clj
      1 |     - | 048_Intro to some.clj
      1 |     - | 064_Intro to Reduce.clj
+     0 |    66 | 089_Graph Tour.clj

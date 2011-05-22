@@ -1,1 +1,1 @@
-#(apply hash-map(mapcat list%%2))
+#(apply hash-map (mapcat list % %2))

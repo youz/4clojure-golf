@@ -1,1 +1,1 @@
-#(apply *(range 1(inc%)))
+#(apply * (range 1 (+ % 1)))

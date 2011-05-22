@@ -1,1 +1,1 @@
-#(rest(interleave[%%%%]%2))
+#(rest (interleave [% % % %] %2))

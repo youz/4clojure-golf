@@ -1,1 +1,1 @@
-#(first(drop%2%))
+#(first (drop %2 %))
