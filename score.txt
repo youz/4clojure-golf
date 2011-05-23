@@ -1,10 +1,12 @@
-solved: 91
-total: 2519 / embed: 1914
+solved: 92
+total: 2798 / embed: 1994
 
  score | embed | file
 -------+-------+--------------------
+   170 |    80 | 094_Game of Life.clj
    148 |    16 | 091_Graph Connectivity.clj
    120 |    34 | 073_Analyze a Tic-Tac-Toe Board.clj
+   109 |    66 | 089_Graph Tour.clj
    106 |    35 | 053_Longest Increasing Sub-Seq.clj
     88 |    32 | 074_Filter Perfect Squares.clj
     83 |    14 | 086_Happy Numbers.clj
@@ -93,4 +95,3 @@ total: 2519 / embed: 1914
      1 |     - | 047_Contain Yourself.clj
      1 |     - | 048_Intro to some.clj
      1 |     - | 064_Intro to Reduce.clj
-     0 |    66 | 089_Graph Tour.clj
