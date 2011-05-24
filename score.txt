@@ -1,8 +1,9 @@
-solved: 92
-total: 2798 / embed: 1994
+solved: 93
+total: 3040 / embed: 2021
 
  score | embed | file
 -------+-------+--------------------
+   253 |    38 | 082_Word Chains.clj
    170 |    80 | 094_Game of Life.clj
    148 |    16 | 091_Graph Connectivity.clj
    120 |    34 | 073_Analyze a Tic-Tac-Toe Board.clj
@@ -43,7 +44,6 @@ total: 2798 / embed: 1994
     27 |     - | 040_Interpose a Seq.clj
     26 |     - | 034_Implement range.clj
     25 |     - | 029_Get the Caps.clj
-    25 |     - | 049_Split a sequence.clj
     23 |     - | 066_Greatest Common Divisor.clj
     22 |     - | 042_Factorial Fun.clj
     22 |     - | 050_Split by Type.clj
@@ -59,6 +59,7 @@ total: 2798 / embed: 1994
     15 |     - | 032_Duplicate a Sequence.clj
     15 |     - | 038_Maximum value.clj
     14 |     - | 046_Flipping out.clj
+    14 |     - | 049_Split a sequence.clj
     14 |     - | 083_A Half-Truth.clj
     12 |     - | 003_Intro to Strings.clj
     12 |     - | 023_Reverse a Sequence.clj
