@@ -1,9 +1,9 @@
 solved: 93
-total: 3040 / embed: 2021
+total: 3037 / embed: 2021
 
  score | embed | file
 -------+-------+--------------------
-   253 |    38 | 082_Word Chains.clj
+   250 |    38 | 082_Word Chains.clj
    170 |    80 | 094_Game of Life.clj
    148 |    16 | 091_Graph Connectivity.clj
    120 |    34 | 073_Analyze a Tic-Tac-Toe Board.clj
