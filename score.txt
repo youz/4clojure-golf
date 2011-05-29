@@ -1,5 +1,5 @@
-solved: 93
-total: 3037 / embed: 2021
+solved: 96
+total: 3193 / embed: 2177
 
  score | embed | file
 -------+-------+--------------------
@@ -18,10 +18,12 @@ total: 3037 / embed: 2021
     64 |     - | 069_Merge with a Function.clj
     64 |    15 | 075_Euler's Totient Function.clj
     61 |     - | 084_Transitive Closure.clj
+    60 |     - | 095_To Tree, or not to Tree.clj
     56 |     - | 054_Partition a Sequence.clj
     54 |     - | 070_Word Sorting.clj
     54 |     - | 085_Power Set.clj
     51 |     - | 058_Function Composition.clj
+    50 |     - | 097_Pascal's Triangle.clj
     48 |    20 | 026_Fibonacci Sequence.clj
     48 |     - | 077_Anagram Finder.clj
     48 |    16 | 080_Perfect Numbers.clj
@@ -29,6 +31,7 @@ total: 3037 / embed: 2021
     47 |     - | 063_Group a Sequence.clj
     47 |     - | 093_Partially Flatten a Sequence.clj
     46 |     - | 044_Rotate Sequence.clj
+    46 |     - | 096_Beauty is Symmetry.clj
     45 |     - | 065_Black Box Testing.clj
     39 |     - | 041_Drop Every Nth Item.clj
     37 |     - | 028_Flatten a Sequence.clj
