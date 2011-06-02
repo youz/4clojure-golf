@@ -1,9 +1,9 @@
-solved: 96
-total: 3193 / embed: 2177
+solved: 99
+total: 3256 / embed: 2258
 
  score | embed | file
 -------+-------+--------------------
-   250 |    38 | 082_Word Chains.clj
+   196 |    38 | 082_Word Chains.clj
    170 |    80 | 094_Game of Life.clj
    148 |    16 | 091_Graph Connectivity.clj
    120 |    34 | 073_Analyze a Tic-Tac-Toe Board.clj
@@ -22,6 +22,7 @@ total: 3193 / embed: 2177
     56 |     - | 054_Partition a Sequence.clj
     54 |     - | 070_Word Sorting.clj
     54 |     - | 085_Power Set.clj
+    54 |    30 | 100_Least Common Multiple.clj
     51 |     - | 058_Function Composition.clj
     50 |     - | 097_Pascal's Triangle.clj
     48 |    20 | 026_Fibonacci Sequence.clj
@@ -35,8 +36,10 @@ total: 3193 / embed: 2177
     45 |     - | 065_Black Box Testing.clj
     39 |     - | 041_Drop Every Nth Item.clj
     37 |     - | 028_Flatten a Sequence.clj
+    35 |    23 | 099_Product Digits.clj
     34 |     - | 062_Re-implement Iterate.clj
     33 |     - | 078_Reimplement Trampoline.clj
+    33 |     - | 098_Equivalence Classes.clj
     32 |     - | 059_Juxtaposition.clj
     31 |     - | 061_Map Construction.clj
     29 |     - | 043_Reverse Interleave.clj
@@ -53,7 +56,6 @@ total: 3193 / embed: 2177
     22 |     - | 090_Cartesian Product.clj
     20 |     - | 022_Count a Sequence.clj
     20 |     - | 027_Palindrome Detector.clj
-    18 |     - | 081_Set Intersection.clj
     17 |     - | 016_Hello World.clj
     17 |     - | 019_Last Element.clj
     17 |     - | 020_Penultimate Element.clj
@@ -64,6 +66,7 @@ total: 3193 / embed: 2177
     14 |     - | 046_Flipping out.clj
     14 |     - | 049_Split a sequence.clj
     14 |     - | 083_A Half-Truth.clj
+    13 |     - | 081_Set Intersection.clj
     12 |     - | 003_Intro to Strings.clj
     12 |     - | 023_Reverse a Sequence.clj
     11 |     - | 008_Intro to Sets.clj

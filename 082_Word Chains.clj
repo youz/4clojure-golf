@@ -1,14 +1,12 @@
-(fn [d s]
-  (boolean
-   (some (fn f [[a r]]
-	   (or (empty? r)
-	       (some #(if (< (d a %) 2) (f [% (disj r %)])) r)))
-	 (map #(list % (disj s %)) s))))
-(fn [x y]
-  (let [f reduce r range c count l (c x)]
-    (last
-     (f #(f (fn [c i]
-	      (conj c (+ 1 (min (% (+ i 1)) (c i)
-				(- (% i) ({(nth x i) 1} (nth y %2) 0))))))
-	  [(+ %2 1)] (r l))
-	`[~@(r l) ~l] (r (c y))))))
+(fn [s d b e q]
+  (b (s (fn f [[w r]]
+	  (or (empty? r)
+	      (s #(if (or (s #{(vec w)} (e %))
+			  (s #{(vec %)} (e w))
+			  (s b (map = (e w) (e %))))
+		   (f [% (d r %)]))
+		 r)))
+	(for [w q] [w (d q w)]))))
+some disj boolean
+#(map (fn [_ i] `[~@(take i %) ~@(drop (+ i 1) %)]) % (range))
+

@@ -1,1 +1,1 @@
-clojure.set/select
+(comp set keep)
