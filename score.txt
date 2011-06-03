@@ -1,11 +1,12 @@
-solved: 99
-total: 3256 / embed: 2258
+solved: 100
+total: 3386 / embed: 2388
 
  score | embed | file
 -------+-------+--------------------
    196 |    38 | 082_Word Chains.clj
    170 |    80 | 094_Game of Life.clj
    148 |    16 | 091_Graph Connectivity.clj
+   140 |     - | 101_Levenshtein Distance.clj
    120 |    34 | 073_Analyze a Tic-Tac-Toe Board.clj
    109 |    66 | 089_Graph Tour.clj
    106 |    35 | 053_Longest Increasing Sub-Seq.clj
@@ -65,7 +66,6 @@ total: 3256 / embed: 2258
     15 |     - | 038_Maximum value.clj
     14 |     - | 046_Flipping out.clj
     14 |     - | 049_Split a sequence.clj
-    14 |     - | 083_A Half-Truth.clj
     13 |     - | 081_Set Intersection.clj
     12 |     - | 003_Intro to Strings.clj
     12 |     - | 023_Reverse a Sequence.clj
@@ -92,6 +92,7 @@ total: 3256 / embed: 2258
      4 |     - | 018_Sequences filter.clj
      4 |     - | 052_Intro to Destructuring.clj
      4 |     - | 071_Rearranging Code -gt.clj
+     4 |     - | 083_A Half-Truth.clj
      2 |     - | 010_Intro to Maps.clj
      2 |     - | 015_Double Down.clj
      1 |     - | 002_Simple Math.clj
