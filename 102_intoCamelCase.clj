@@ -1,1 +1,1 @@
-#(clojure.contrib.pprint/cl-format false "~{~A~@{~:(~A~)~}~}" (.split % "-"))
+#(clojure.contrib.pprint/cl-format nil "~{~A~@{~:(~A~)~}~}" (.split % "-"))

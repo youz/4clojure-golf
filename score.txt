@@ -1,5 +1,5 @@
 solved: 101
-total: 3458 / embed: 2417
+total: 3456 / embed: 2417
 
  score | embed | file
 -------+-------+--------------------
@@ -12,8 +12,8 @@ total: 3458 / embed: 2417
    106 |    35 | 053_Longest Increasing Sub-Seq.clj
     88 |    32 | 074_Filter Perfect Squares.clj
     83 |    14 | 086_Happy Numbers.clj
-    72 |    29 | 102_intoCamelCase.clj
     70 |    31 | 092_Read Roman numerals.clj
+    70 |    29 | 102_intoCamelCase.clj
     67 |    19 | 079_Triangle Minimal Path.clj
     65 |    19 | 067_Prime Numbers.clj
     64 |    57 | 060_Sequence Reductions.clj
