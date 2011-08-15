@@ -1,10 +1,14 @@
 (ns foreclojure.util)
 (require '[clojure.java.io :as jio])
 
+(def usage "usage: clojure 4cljscore.clj foldername [output]")
+
+
 ;;; from https://github.com/dbyrne/4clojure/blob/develop/src/foreclojure/problems.clj
 (defn- code-length [f]
   (let [code (slurp f)]
-    (count (remove #(Character/isWhitespace %) code))))
+    (count (remove #(Character/isWhitespace %)
+		   (.replaceAll code ";+.*\r?\n" "")))))
 
 (defn- get-solutions [folder]
   (let [d (new java.io.File folder)]
@@ -41,12 +45,12 @@
 (defn main []
   (let [[folder output] *command-line-args*]
     (if (not folder)
-	(println "usage: clojure 4cljscore.clj foldername [output]")
+	(println usage)
       (let [score (calc-score (get-solutions folder))]
 	(if output
 	    (with-open [w (jio/writer output)]
 	      (render score w)
-	      (println "output to" output))
+	      (println "created" output))
 	  (render score))))))
 
 (main)

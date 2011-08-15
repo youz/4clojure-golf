@@ -1,5 +1,5 @@
-solved: 101
-total: 3456 / embed: 2417
+solved: 105
+total: 3715 / embed: 2655
 
  score | embed | file
 -------+-------+--------------------
@@ -7,10 +7,12 @@ total: 3456 / embed: 2417
    170 |    80 | 094_Game of Life.clj
    148 |    16 | 091_Graph Connectivity.clj
    140 |     - | 101_Levenshtein Distance.clj
-   120 |    34 | 073_Analyze a Tic-Tac-Toe Board.clj
    109 |    66 | 089_Graph Tour.clj
    106 |    35 | 053_Longest Increasing Sub-Seq.clj
+   100 |    55 | 105_Identify keys and values.clj
+    96 |    34 | 073_Analyze a Tic-Tac-Toe Board.clj
     88 |    32 | 074_Filter Perfect Squares.clj
+    84 |     - | 103_Generating k-combinations.clj
     83 |    14 | 086_Happy Numbers.clj
     70 |    31 | 092_Read Roman numerals.clj
     70 |    29 | 102_intoCamelCase.clj
@@ -21,6 +23,7 @@ total: 3456 / embed: 2417
     64 |    15 | 075_Euler's Totient Function.clj
     61 |     - | 084_Transitive Closure.clj
     60 |     - | 095_To Tree, or not to Tree.clj
+    59 |     - | 106_Number Maze.clj
     56 |     - | 054_Partition a Sequence.clj
     54 |     - | 070_Word Sorting.clj
     54 |     - | 085_Power Set.clj
@@ -36,6 +39,7 @@ total: 3456 / embed: 2417
     46 |     - | 044_Rotate Sequence.clj
     46 |     - | 096_Beauty is Symmetry.clj
     45 |     - | 065_Black Box Testing.clj
+    40 |     - | 104_Write Roman Numerals.clj
     39 |     - | 041_Drop Every Nth Item.clj
     37 |     - | 028_Flatten a Sequence.clj
     35 |    23 | 099_Product Digits.clj
