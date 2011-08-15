@@ -1,4 +1,19 @@
-#(some (fn [a]
-	 (let [l (map (fn[i] (nth (flatten %) i)) a)]
-	   (if (apply = l) (#{:o :x} (last l)))))
-  (partition 3 `[~@(range 9) 0 3 6 1 4 7 2 5 8 0 4 8 2 4 6]))
+;;; inspired by https://gist.github.com/1024984
+
+(fn [a x b]
+  (#{:o :x}
+   (ffirst
+    (filter #(a = %)
+      `(~@b ~@(a map list b) ~(x b [0 1 2]) ~(x b [2 1 0]))))))
+apply #(map get % %2)
+
+;;; This code fails in some cases.
+;;; ref. https://twitter.com/#!/alanmalloy/status/80680005360828416
+
+
+;;; correct version
+; (fn [a x b]
+;  (ffirst
+;   (remove #(or (some #{:e} %) (a not= %))
+;     `(~@b ~@(a map list b) ~(x b [0 1 2]) ~(x b [2 1 0])))))
+;apply #(map get % %2)
