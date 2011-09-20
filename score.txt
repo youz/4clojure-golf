@@ -1,5 +1,5 @@
-solved: 105
-total: 3715 / embed: 2655
+solved: 112
+total: 4183 / embed: 3043
 
  score | embed | file
 -------+-------+--------------------
@@ -9,13 +9,17 @@ total: 3715 / embed: 2655
    140 |     - | 101_Levenshtein Distance.clj
    109 |    66 | 089_Graph Tour.clj
    106 |    35 | 053_Longest Increasing Sub-Seq.clj
+   101 |     - | 111_Crossword puzzle.clj
    100 |    55 | 105_Identify keys and values.clj
     96 |    34 | 073_Analyze a Tic-Tac-Toe Board.clj
+    96 |     - | 113_Making Data Dance.clj
     88 |    32 | 074_Filter Perfect Squares.clj
     84 |     - | 103_Generating k-combinations.clj
     83 |    14 | 086_Happy Numbers.clj
+    72 |    28 | 108_Lazy Searching.clj
     70 |    31 | 092_Read Roman numerals.clj
     70 |    29 | 102_intoCamelCase.clj
+    68 |     - | 115_The Balance of N.clj
     67 |    19 | 079_Triangle Minimal Path.clj
     65 |    19 | 067_Prime Numbers.clj
     64 |    57 | 060_Sequence Reductions.clj
@@ -25,6 +29,8 @@ total: 3715 / embed: 2655
     60 |     - | 095_To Tree, or not to Tree.clj
     59 |     - | 106_Number Maze.clj
     56 |     - | 054_Partition a Sequence.clj
+    56 |     - | 110_Sequence of pronounciations.clj
+    55 |    19 | 114_Global take-while.clj
     54 |     - | 070_Word Sorting.clj
     54 |     - | 085_Power Set.clj
     54 |    30 | 100_Least Common Multiple.clj
@@ -62,6 +68,7 @@ total: 3715 / embed: 2655
     22 |     - | 090_Cartesian Product.clj
     20 |     - | 022_Count a Sequence.clj
     20 |     - | 027_Palindrome Detector.clj
+    20 |     - | 107_Simple closures.clj
     17 |     - | 016_Hello World.clj
     17 |     - | 019_Last Element.clj
     17 |     - | 020_Penultimate Element.clj
