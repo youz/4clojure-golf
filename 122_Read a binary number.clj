@@ -1,0 +1,1 @@
+#(BigInteger. % 2)
