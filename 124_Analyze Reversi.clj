@@ -1,12 +1,12 @@
 (fn [B P]
-  (let [r range a apply v vector
+  (let [r range a apply v vector q (r 4)
         d #(v (r % 4) [% % % %] (r % -1 -1))]
     (a conj
-       (for [y (r 4) x (r 4)]
+       (for [y q x q]
          (#({() {}} % {[y x] (set %)})
           (a concat
-             (for [i (d y) j (d x) :let [l (map v i j)]]
-               (rest
-                (take (- (count (re-find ({'b #"^ew+b"} P #"^eb+w")
-                                    (a str (map #(get-in B %) l))))
-                         1) l)))))))))
+             (for [i (d y) j (d x)]
+               (#(-> ({'b #"^ew+b"} P #"^eb+w")
+                  (re-find (a str (map %2 %)))
+                  count dec (take %) rest)
+                (map v i j) #(get-in B %)))))))))
