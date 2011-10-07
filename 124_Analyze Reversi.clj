@@ -1,12 +1,14 @@
+;; s/4/(count B)/g  for boards of any size
+
 (fn [B P]
-  (let [r range a apply v vector q (r 4)
+  (let [r range v vector q (r 4)
+        g #(get-in B %)
         d #(v (r % 4) [% % % %] (r % -1 -1))]
-    (a conj
-       (for [y q x q]
-         (#({() {}} % {[y x] (set %)})
-          (a concat
-             (for [i (d y) j (d x)]
-               (#(-> ({'b #"^ew+b"} P #"^eb+w")
-                  (re-find (a str (map %2 %)))
-                  count dec (take %) rest)
-                (map v i j) #(get-in B %)))))))))
+    (into {}
+          (for [y q x q]
+            (mapcat #({() {}} % {[y x] (set %)})
+                    (for [i (d y) j (d x)]
+                      (#(-> P {'b #"^ew+b" 'w #"^eb+w"}
+                           (re-find (apply str (map g %)))
+                           count dec (take %) rest)
+                       (map v i j))))))))
