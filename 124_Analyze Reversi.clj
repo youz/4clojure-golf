@@ -1,5 +1,3 @@
-;; s/4/(count B)/g  for boards of any size
-
 (fn [B P]
   (let [r range v vector q (r 4)
         g #(get-in B %)
